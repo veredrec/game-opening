@@ -8,7 +8,7 @@ var prompts = [
   'Are you sure you are ready for the game?',
   'Great, so we can go ahead and get started!',
   'Would you like to hear how the game goes?',
-  'You are going to earn point, get challenged, receive some gifts (not traditional ones...), and laugh. A lot!',
+  'You are going to earn point, get challenges, receive some gifts (not traditional ones...), and laugh. A lot!',
   'You will have to guess a lot and good guesses will give you good points',
   'You will need to use your brain, your hands, and your phone.',
   'But all the rest is going to be at home',
@@ -31,10 +31,10 @@ var optionsB = [
   'Do we have to?',
   'No, I hate games',
   'Sounds boring...',
-  "Doesn't sound like fun to me",
-  'I prefer to sleep...',
-  "Let's not go home!",
-  "I'm not ready at all :("
+  'Not fun!',
+  'Not me...',
+  'Nope',
+  'Not ready at all :('
 ];
 
 b.addEventListener('click', function() {
@@ -43,6 +43,7 @@ b.addEventListener('click', function() {
 });
 
 a.addEventListener('click', function() {
+  result.textContent = '';
   changePrompt();
 });
 
@@ -57,10 +58,7 @@ function changePrompt() {
 }
 
 function finalMessage() {
-  prompt.textContent = 'YUY! WOW! FUN!!!!';
+  prompt.textContent = 'YAY! WOW! FUN! It is GAME TIME!!!';
+  a.innerHTML = '<img src="smile.png" />';
+  b.innerHTML = '<img src="smile.png" />';
 }
-
-// in final message - change options to be smilies or something
-// remove "bad" message after choosing a "good" one
-// make messages smaller so it has enough space (maybe different font)
-// add animation to page
