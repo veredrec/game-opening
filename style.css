@@ -1,0 +1,54 @@
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: #4b5763;
+  font-size: 3rem;
+}
+.main {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+.main:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(./stars.jpg) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.5;
+}
+.title {
+  font-size: 10rem;
+  color: #ff7b7b;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+.intro {
+  line-height: 5rem;
+}
+.prompt {
+  background-color: #bdff7b;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 2rem;
+  line-height: 4rem;
+}
+.button {
+  font-size: 4rem;
+  padding: 2rem;
+  background-color: #7bbdff;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  font-family: 'Fredoka One', cursive;
+  margin: 2rem;
+}
