@@ -8,7 +8,7 @@ var prompts = [
   'Are you sure you are ready for the game?',
   'Great, so we can go ahead and get started!',
   'Would you like to hear how the game goes?',
-  'You are going to earn point, get challenges, receive some gifts (not traditional ones...), and laugh. A lot!',
+  'You are going to get challenges, earn points, receive some gifts (not traditional ones...), and laugh. A lot!',
   'You will have to guess a lot and good guesses will give you good points',
   'You will need to use your brain, your hands, and your phone.',
   'But all the rest is going to be at home',
